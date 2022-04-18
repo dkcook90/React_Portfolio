@@ -6,7 +6,7 @@ const styles = {};
 
 function Project() {
   return (
-    <Container>
+    <Container id="projects">
       <CardGroup>
         <Card className="mx-2">
           <Card.Img variant="top" src={pokemonImg} />
