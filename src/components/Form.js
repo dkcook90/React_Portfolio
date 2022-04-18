@@ -6,6 +6,9 @@ const styles = {};
 function formSection() {
   return (
     <Container id="contactMe" className="my-5">
+      <Container className="p-3 mb-1 bg-light rounded-3 text-center">
+        <h1 className="header">Leave a message and I will get back to you!</h1>
+      </Container>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
