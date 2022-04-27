@@ -1,10 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import pdf from "../assets/resume.pdf"
 
 const styles = {};
 
 function navBarSeciton() {
+
+  
+
   return (
     <>
     <Container className="p-3 mb-1 bg-light rounded-3 text-center">
@@ -21,7 +25,7 @@ function navBarSeciton() {
         <Nav.Link href="/form">Contact Me</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href="#">Resume</Nav.Link>
+        <Nav.Link href={pdf} target="_blank">Resume</Nav.Link>
       </Nav.Item>
     </Nav>
     </>
