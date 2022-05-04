@@ -25,7 +25,7 @@ function navBarSeciton() {
         <Nav.Link href="/form">Contact Me</Nav.Link>
       </Nav.Item>
       <Nav.Item>
-        <Nav.Link href={pdf} target="_blank">Resume</Nav.Link>
+        <Nav.Link href={pdf} download={true}>Resume</Nav.Link>
       </Nav.Item>
     </Nav>
     </>
